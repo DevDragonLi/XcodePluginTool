@@ -1,12 +1,21 @@
 #XcodePluginUpgradeCompatible-LFL
 
+## 特别说明,此版本为解决Xcode插件处理终结版本(只要是xcode版本升级,导致不插件无法加载,都可以尝试使用此工程命令修正,和xcode5之后版本无关),觉得好用,还望给个star ,谢谢呀
+
+### 有群里小伙伴反馈,如果电脑的用户名曾经更改而且没有更改个人目录那么获取的路径无效,修正后为不获取用户名,而是获取用户下个人目录方式.并且打印台也打印一下你插件目录安装插件都是哪些啦.
+
 ##1.直接上图(很简单一步到位)
 
-![frist_Pic](https://github.com/LFL2018/PicSources/blob/master/XcodePluginUpgradeCompatible-LFL/XcodePluginUpgradeCompatible-LFL1.png)
 
-![Pic2](https://github.com/LFL2018/PicSources/blob/master/XcodePluginUpgradeCompatible-LFL/XcodePluginUpgradeCompatible-LFL2.png)
+![frist_Pic](https://github.com/LFL2018/Som_related_information_LFL/blob/master/The_picture/XcodePluginUpgradeCompatible-LFL/XcodePluginUpgradeCompatible-LFL1.png?raw=true)
 
-![Pic3](https://github.com/LFL2018/PicSources/blob/master/XcodePluginUpgradeCompatible-LFL/XcodePluginUpgradeCompatible-LFL3.png)
+
+![Pic2](https://github.com/LFL2018/Som_related_information_LFL/blob/master/The_picture/XcodePluginUpgradeCompatible-LFL/XcodePluginUpgradeCompatible-LFL2.png?raw=true)
+
+![Pic3](https://github.com/LFL2018/Som_related_information_LFL/blob/master/The_picture/XcodePluginUpgradeCompatible-LFL/XcodePluginUpgradeCompatible-LFL3.png?raw=true)
+
+###1.1 新增加打印插件名
+![](./lastPic.png)
 
 ##2.1    中文说明
 
@@ -22,4 +31,11 @@
 
 ### 2.How to solve and use this commandCom + R running, restartXcode   Tips:reboot Xcode will require the user to confirm whether to Load the apple official plugin, please select the Load Bundles
 
-## 觉得好用,还望给个star ,谢谢呀
+
+### 3. 有任何问题，请及时 issues me 
+ <dragonli_52171@163.com>   
+ 
+
+## License
+
+English: this library is available under the MIT license, see the LICENSE file for more information.  
