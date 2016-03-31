@@ -68,9 +68,9 @@ int main(int argc, const char * argv[]) {
         if (!error) {
             for (NSString *xcpluginFileName  in pathArray) {
                 if ([xcpluginFileName hasSuffix:@".xcplugin"]) {
-                    LFLog(@"你安装了%@这个插件",[xcpluginFileName componentsSeparatedByString:@".xcplugin"].firstObject);
+                    LFLog(@"你电脑之前安装了%@这个插件",[xcpluginFileName componentsSeparatedByString:@".xcplugin"].firstObject);
                     NSString *pluginPlistPath = [NSString stringWithFormat:@"%@/%@/Contents/Info.plist", pluginPath, xcpluginFileName];
-                    NSDictionary *pluginInfoDictionary = [[NSDictionary alloc] initWithContentsOfFile:pluginPlistPath];
+                    NSMutableDictionary *pluginInfoDictionary = [[NSDictionary alloc] initWithContentsOfFile:pluginPlistPath];
                     NSMutableArray *supportedUUIDs = [NSMutableArray arrayWithArray:pluginInfoDictionary[@"DVTPlugInCompatibilityUUIDs"]];
                     
                     if (![supportedUUIDs containsObject:xcodeUUID]) {
