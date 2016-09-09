@@ -1,6 +1,33 @@
 #XcodePluginUpgradeCompatible-LFL
 
-## 特别说明,此版本为解决Xcode插件处理终结版本(只要是xcode版本升级,导致不插件无法加载,都可以尝试使用此工程命令修正,和xcode5之后版本无关),觉得好用,还望给个star ,谢谢呀
+
+#一:更新readme记录
+
+##1.2016年9.9号更新,对应Xcode8.X系列下使用Alcatraz加载插件
+
+###1.1 [辅助工具下载地址](https://github.com/steakknife/unsign)
+
+###1.2  
+```
+git clone https://github.com/steakknife/unsign.git
+cd unsign
+make    
+最关键就是下载后,终端执行make命令
+ 
+```
+###1.3 使用unsign为xcode移除签名
+
+```
+./unsign /Applications/Xcode.app/Contents/MacOS/Xcode
+
+```
+会在/Applications/Xcode.app/Contents/MacOS/下生成Xcode.unsigned,备份好原始的Xcode，把Xcode.unsigned重命名为Xcode，重启Xcode即可.
+
+###1.4,再次重启Xcode,如果以前插件无法运行,请下载本工程,运行一遍即可
+
+
+
+## 特别说明,此版本为解决Xcode插件处理终结版本(只要是xcode版本升级,导致不插件无法加载,都可以尝试使用此工程命令修正,觉得好用,还望给个star ,谢谢.
 
 ### 有群里小伙伴反馈,如果电脑的用户名曾经更改而且没有更改个人目录那么获取的路径无效,修正后为不获取用户名,而是获取用户下个人目录方式.并且打印台也打印一下你插件目录安装插件都是哪些啦.
 
