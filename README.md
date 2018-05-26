@@ -1,11 +1,11 @@
-# XcodePluginUpgradeCompatible-LFL
+# XcodePluginUpgradeCompatible
 
- [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=XcodePluginUpgrade-LFL)](http://github.com/DevDragonLi/XcodePluginUpgrade-LFL)
- [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=XcodePluginUpgrade-LFL)](http://github.com/DevDragonLi/XcodePluginUpgrade-LFL/fork)
+ [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=XcodePluginTool)](http://github.com/DevDragonLi/XcodePluginTool)
+ [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=XcodePluginTool)](http://github.com/DevDragonLi/XcodePluginTool/fork)
 
 ### Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/XcodePluginUpgrade-LFL.svg)](https://starcharts.herokuapp.com/DevDragonLi/XcodePluginUpgrade-LFL)
+[![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/XcodePluginTool.svg)](https://starcharts.herokuapp.com/DevDragonLi/XcodePluginTool)
 
 
 ## content 
