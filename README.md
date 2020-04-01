@@ -1,7 +1,13 @@
 # XcodePluginUpgradeCompatible
 
- [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=XcodePluginTool)](http://github.com/DevDragonLi/XcodePluginTool)
- [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=XcodePluginTool)](http://github.com/DevDragonLi/XcodePluginTool/fork)
+> `Xcode8` 后 Apple 官方`Xcode` 已支持内嵌插件。故而仅对之前版本Xcode有效。
+
+
+> [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=XcodePluginTool)](http://github.com/DevDragonLi/XcodePluginTool)
+[![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=XcodePluginTool)](http://github.com/DevDragonLi/XcodePluginTool/fork)
+
+
+- **[曾经Xcode常用的插件收集列表](#XcodePlugin)**
 
 ### Stargazers over time
 
@@ -10,48 +16,44 @@
 
 ## content 
 
-- **Compatible**
+###  **Compatible**
 	
-	- **Xcode7** : 运行工程文件后,重启Xcode即可  tips : Xcode重启后会要求用户确认是否加载非苹果官方插件，请选择`Load Bundles`
-	- **Xcode8+** 
-		- [辅助工具下载地址](https://github.com/steakknife/unsign)
+- **Xcode7** : 运行工程文件后,重启Xcode即可  tips : Xcode重启后会要求用户确认是否加载非苹果官方插件，请选择`Load Bundles`
 
-		
-		```
-		git clone https://github.com/steakknife/unsign.git
-		cd unsign
-		make    
- 
-		```
-		
-		-  使用unsign为xcode移除签名 ,会在/Applications/Xcode.app/Contents/MacOS/下生成Xcode.unsigned,备份好原始的Xcode，把Xcode.unsigned重命名为Xcode，重启Xcode即可
+- **Xcode8+** 
 
-		```
-		./unsign /Applications/Xcode.app/Contents/MacOS/Xcode
-		
-		```
-		- 再次重启Xcode,如果以前插件无法运行,请下载本工程,运行一遍即可
+	- [steakknife site ](https://github.com/steakknife/unsign)
+	
+	```
+	git clone https://github.com/steakknife/unsign.git
+	cd unsign &&	make    
 
+	```
+	
+-  使用unsign为xcode移除签名 ,会在/Applications/Xcode.app/Contents/MacOS/下生成Xcode.unsigned,备份好原始的Xcode，把Xcode.unsigned重命名为Xcode，重启Xcode即可
+
+	- ./unsign /Applications/Xcode.app/Contents/MacOS/Xcode
+
+- 再次重启Xcode,如果以前插件无法运行,请下载本工程,运行一遍即可
 		
-- **[Xcode常用的插件收集列表](#XcodePlugin)**
 
 
 ## 工程文件说明
 
-> 特别说明,此版本为解决Xcode插件处理终结版本(只要是xcode版本升级,导致不插件无法加载,都可以尝试使用此工程命令修正,觉得好用,还望给个star ,谢谢!
+> 特别说明,此版本为解决Xcode8前插件处理终结版本(只要是Xcode版本升级,导致不插件无法加载,都可以尝试使用此工程命令修正,觉得好用,还望给个star ,谢谢!
 
 >  有群里小伙伴反馈,如果电脑的用户名曾经更改而且没有更改个人目录那么获取的路径无效,修正后为不获取用户名,而是获取用户下个人目录方式.并且打印台也打印一下你插件目录安装插件都是哪些.
 
 -  直接上图(很简单一步到位)
-![](./pics/XcodePluginUpgradeCompatible-LFL1.png)
+![](./pics/1.png)
 
-![](./pics/XcodePluginUpgradeCompatible-LFL2.png)
+![](./pics/2.png)
 
-![](./pics/XcodePluginUpgradeCompatible-LFL3.png)
+![](./pics/3.png)
 
 - 新增加打印插件名
 
-![](./pics/XcodePluginUpgradeCompatible-LFL4.png)
+![](./pics/4.png)
 
 ## why ? 
 
